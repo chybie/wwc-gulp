@@ -1,2 +1,1 @@
-@logo = ->
-  alert 'Hello, women Who Code KL'
+logo = (param1) -> alert "Hello, #wwckl"
