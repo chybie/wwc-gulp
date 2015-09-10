@@ -21,3 +21,4 @@ Challenges:
 6. Write your code in gulpfile.js
 6. Complete code is ready in gulpfile.complete.js
 7. If you wanna run the completed code, please copy the gulpfile.complete.js code to gulpfile.js. Gulp only detect gulpfile.js by default.
+8. Good luck! :)
