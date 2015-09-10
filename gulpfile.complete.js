@@ -30,7 +30,7 @@ var distDir = {
 gulp.task('jade',function(){
   gulp.src(srcFiles.jade)
   .pipe(jade({
-    //pretty: true
+    pretty: true
   }))
   .pipe(gulp.dest(distDir.base))
   .pipe(connect.reload());
@@ -76,6 +76,7 @@ gulp.task('coffee', function(){
 //Compress images
 gulp.task('image', function(){
   gulp.src(srcFiles.image)
+  .pipe(image())
   .pipe(gulp.dest(distDir.image))
 });
 
